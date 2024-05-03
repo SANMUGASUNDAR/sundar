@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TABLE</title>
+</head>
+<style>
+    table{
+        background-color: rgb(48, 147, 201);
+        width: 50px;
+        margin: 0%;
+        color: hsl(240, 9%, 4%);
+        text-align: center;
+    }
+    th {
+        background-color: aqua;
+        color: #393737;
+    }
+    td {
+        background-color: aquamarine;
+        color: #393737;
+    }
+    th, td{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    *{
+        align-items: center;
+    }
+</style>
+<body>
+    <table border="1px solid rgb(24, 15, 15)"  >
+        <caption>STUDENTS TABLE</caption>
+        <tr>
+            <th rowspan="2"> ID</th>
+            <th rowspan="2">NAME</th>
+            <th colspan="2">MARK</th>
+            <th rowspan="2">TOTAL</th>
+        </tr>
+        <tr>
+            <th>Sub1</th>
+            <th>Sub2</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Sun</td>
+            <td>98</td>
+            <td>94</td>
+            <td>192</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Power</td>
+            <td>93</td>
+            <td>92</td>
+            <td>185</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
